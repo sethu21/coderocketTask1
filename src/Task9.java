@@ -7,7 +7,7 @@ public class Task9 {
         System.out.print("input six non-negative digits= " );
         int Input = User.nextInt();
         if (Input > 999999){
-            System.out.print(" ");
+            return  ;
 
         }
         else if (Input > 0){
@@ -19,8 +19,8 @@ public class Task9 {
             int digit6=Input%10;
             System.out.print( digit1+" "+digit2+" "+digit3+" "+digit4+" "+digit5+" "+digit6 );
         }
-        else {
-            System.out.println(" " );
+        else  {
+            return;
         }
 
     }

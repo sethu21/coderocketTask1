@@ -13,7 +13,7 @@ public class GMT {
         long TotalMinute = minute%60;
         long hours = TotalMinute/60;
         long TotalHours = ((hours + time)%24);
-        long CurrentTime = TotalHours ;
+        long CurrentTime = TotalHours;
 
 
         System.out.printf("Current time is :"+CurrentTime +":"+TotalMinute+":"+TotalSecond);

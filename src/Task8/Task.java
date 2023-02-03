@@ -19,9 +19,9 @@ public class Task {
         System.out.println("sum of two numbers = " + Result );
         System.out.println("Difference of two integer= "+ Result1 );
         System.out.println("Product of two integer= "+ Result2 );
-        System.out.printf("Average of two integers: %.2f%n", (double) (Result) / 2);
         System.out.printf("Distance of two integers: %d%n", Math.abs(input - input1));
         System.out.printf("Max integer: %d%n", Math.max(input, input1));
+        System.out.printf("Average of two integers: %.2f%n", (double) (Result) / 2);
         System.out.printf("Min integer: %d%n", Math.min(input, input1));
     }
 }
